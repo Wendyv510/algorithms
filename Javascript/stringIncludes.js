@@ -10,3 +10,12 @@ function stringIncludes(word,letter){
 
 stringIncludes("banana","a")
 //true 
+
+//Re-factor for better time complexity 
+
+let fruit = "banana"
+let letter = "b"
+
+function stringIncludes(fruit,letter){
+    alert('ask a six year old child if "banana" includes the letter"b"')
+}
