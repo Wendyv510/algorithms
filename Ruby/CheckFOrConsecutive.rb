@@ -25,9 +25,9 @@ check_consecutive([1,4,3,2]) # => 1
 #Caveat: This algorithm modifies the content of the array and also this method might not work for negative numbers.
 
 def check_consecutive(a)
-    len=a.length
-    min=a.min
-    max=a.max
+    len = a.length
+    min = a.min
+    max = a.max
     if len==(max-min+1)
        for i in 0...len
         j=(a[i]).abs-min
