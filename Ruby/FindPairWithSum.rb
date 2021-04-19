@@ -29,10 +29,10 @@ check_pair([5,4,10,-2,3,2,-1,9],9)
 #Time-complexity: O(nlogn) //O(nlogn)+O(n), Space-complexity: O(1)
 
 def check_pair(arr,x)
-    len=arr.length
+    len = arr.length
     arr.sort!           # You can choose your own sorting algorithm
-    left=0
-    right=len-1
+    left = 0
+    right = len-1
     while left<right
         if (arr[left]+arr[right]==x)
             return "Array has two elements with sum:#{x}"
