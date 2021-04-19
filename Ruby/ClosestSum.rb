@@ -11,9 +11,9 @@ def closest_sum(a,x)
     while(left<right)
       sum=(a[left]+a[right])-x
       if sum.abs<min_sum
-          min_sum=sum.abs
-          min_l=left
-          min_r=right
+          min_sum = sum.abs
+          min_l = left
+          min_r = right
       end
       if sum<0
           left+=1
